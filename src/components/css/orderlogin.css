@@ -1,0 +1,27 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #9D9D9D; */
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column;
+    align-content: center; */
+    /* background: #000000 0% 0% no-repeat padding-box;
+    border: 2px solid green; */
+}
+
+@media only screen and (min-width : 280px ) and (max-width : 320px ){
+    .main-container{
+        width: 100vw;
+        height: 100vh;
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+
+}

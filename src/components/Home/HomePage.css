@@ -1,0 +1,188 @@
+.Home-Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* width:1368px;
+    height:60px ; */
+    width:100vw;
+    height: 10vh;
+    background: #A03037 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.head-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.educationimg{
+    background-image: url("../../assests/education.svg");
+    width: 31px;
+    height: 24px;
+    margin-left: 164px;
+    margin-top: 18.6px;
+    border: none;
+    outline:none;
+    background-color: transparent;
+}
+.bookstore{
+    margin-left: 6px;
+    margin-top: 17px;
+    width: 91px;
+    height: 26px;
+    font: normal normal normal 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+   text-transform: capitalize;
+   opacity: 1;
+}
+.inputfeildss{
+    margin-left: 42px;
+    margin-top: 14px;
+    width: 490px;
+    height: 33px;
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    border: none;
+    outline:none;
+    
+}
+.icons{
+    
+margin-left: 247px;
+}
+.userprofile{
+    background-image: url("../../assests/user.png");
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    
+}
+
+.profile{
+    margin-top: 5px;
+    width: 31px;
+   height: 13px;
+   font: normal normal normal 10px/13px Roboto;
+   letter-spacing: 0.45px;
+   color: #FFFFFF;
+
+}
+.icons1{
+    margin-left: 40px;
+
+}
+.cart{
+    background-image: url("../../assests/cart.png");
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+
+}
+.cart img{
+    width: 100%;
+    height: 100%;
+}
+.carttext{
+    margin-top: 5px;
+    width: 31px;
+   height: 13px;
+   font: normal normal normal 10px/13px Roboto;
+   letter-spacing: 0.45px;
+   color: #FFFFFF;
+
+}
+.BookList{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 172px;
+    /* border: 2px solid red; */
+    /* width: 1019px; */
+    width: 1000;
+    margin-top: 30px;
+    /* height: 942px; */
+    min-height: 100vh;
+    max-height: 500vh;
+    flex-wrap: wrap;
+    /* margin-left: 28px;
+    margin-bottom: 28px; */
+}
+/* .selectLocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} */
+/* .forfooter{
+    margin-top: 580px;
+} */
+
+.booksrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 78vw;
+    height: 60px;
+   /* border: 1px solid rebeccapurple; */
+   justify-content: space-between;
+}
+.selectopt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 30px;
+    width: 20px;
+    margin-top: 25px;
+    margin-right: 10px;
+   
+   }
+.bookh{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 168px;
+    width: 70px;
+height: 33px;
+font: normal normal normal 25px/33px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+
+}
+.homebookname{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 164px;
+
+}
+.homemycart{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 164px;
+
+}
+.wishhh{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 164px;
+
+}
+@media only screen and (min-width : 280px ) and (max-width : 950px ){
+
+    .inputfeildss{
+        display: none;
+    }
+
+}

@@ -1,0 +1,160 @@
+.signupContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #878787;
+    /* border: 2px solid blueviolet; */
+}
+.lgnbt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 28px;
+    
+}
+.signlgnbtn{
+    width: 72px;
+    height: 33px;
+    margin-left: 55px;
+    font: normal normal medium 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: uppercase;
+    opacity: 1;
+    border: none;
+    outline:none;
+    background-color: transparent;
+}
+.signupbtn{
+    width: 89px;
+    height: 33px;
+    margin-left: 82px;
+    font: normal normal medium 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    text-transform: uppercase;
+    opacity: 1;
+    border: none;
+    outline:none;
+    background-color: transparent;
+}
+.inputfeild{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 69px;
+    /* border: 2px solid pink; */
+}
+.fullname{
+    width: 45px;
+   height: 13px;
+   font: normal normal normal 10px/13px Roboto;
+   letter-spacing: 0px;
+   color: #0A0102;
+   text-transform: capitalize;
+   opacity: 1;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 252px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+}
+.Email{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 36px;
+    height: 13px;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.inptemail{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 252px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+}
+.Passwrd{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 44px;
+    height: 13px;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.Passwrdfeild{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 252px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+}
+.mobilenum{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 68px;
+    height: 13px;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.mobilenumfeild{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 252px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    opacity: 1;
+}
+.signupbtnl{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 258px;
+    height: 37px;
+    background: #A03037 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 3px;
+    opacity: 1;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 9px 104px;
+
+}

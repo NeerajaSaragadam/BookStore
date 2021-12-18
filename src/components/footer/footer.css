@@ -1,0 +1,17 @@
+.footer{
+    width: 1368px;
+height: 40px;
+background: #2E1D1E 0% 0% no-repeat padding-box;
+}
+.footerpara{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 174px;
+    width: 346px;
+height: 15px;
+padding: 10px;
+font-size: 12px;
+letter-spacing: 0px;
+color: #FFFFFF;
+}

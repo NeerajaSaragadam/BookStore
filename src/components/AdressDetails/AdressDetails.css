@@ -1,0 +1,226 @@
+.CustomerDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 774px;
+    height: 486px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+}
+.Addnew{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* margin-top: 20px; */
+margin-left: 28px;
+
+}
+.customer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 150px;
+    height: 24px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+   color: #333232;
+
+}
+.AddnewAdress{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 400px;
+    width: 150px;
+height: 35px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #A03037;
+border-radius: 2px;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #A03037;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.customerfulldetails{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    margin-top: 45px;
+    margin-left: 57px;
+    width: 530px;
+    /* height: 100px; */
+}
+.fullnamedetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 54px;
+    height: 16px;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+   color: #0A0102;
+}
+.fullnameinput{
+    width: 251px;
+height: 35px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #DCDCDC;
+}
+.Mobilenum{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 220px;
+    margin-bottom: 0px;
+    height: 61px;
+}
+.labelnum{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 82px;
+height: 16px;
+font: normal normal normal 10px/12px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+text-transform: capitalize;
+}
+.inputnum{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 251px;
+height: 35px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #DCDCDC;
+margin-top: 0px;
+}
+.labeladdress{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 47px;
+height: 16px;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+}
+.addressinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 512px;
+height: 72px;
+}
+.fullplacedetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.citytown{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.citylabel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50px;
+height: 16px;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+}
+.cityinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 251px;
+height: 35px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #DCDCDC;
+border-radius: 2px;
+}
+.state{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 8px;
+
+}
+.statelabel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 28px;
+height: 16px;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+}
+.inputstate{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 251px;
+height: 35px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #DCDCDC;
+border-radius: 2px;
+}
+.type{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 26px;
+height: 16px;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+margin-top: 10px;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.orther{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 40px;
+
+}
+.continue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 150px;
+height: 35px;
+background: #3371B5 0% 0% no-repeat padding-box;
+border-radius: 3px;
+margin-left: 590px;
+border: none;
+outline: none;
+align-items: center;
+color: #FFFFFF;
+}

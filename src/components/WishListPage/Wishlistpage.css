@@ -1,0 +1,111 @@
+.wishlish{
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    width: 73vw;
+    min-height: 25vh;
+    max-height: 200vh;
+    border: 1px solid #E4E4E4;
+}
+.mywishlis{
+    width: 1022px;
+height: 55px;
+background: #F5F5F5 0% 0% no-repeat padding-box;
+border: 1px solid #E4E4E4;
+border-radius: 1px;
+}
+.mywish{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 131px;
+height: 24px;
+margin-left: 36px;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+}
+.wishrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.wishimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 36px;
+    margin-top: 40px;
+    width: 65px;
+height: 85px;
+}
+.wishimg img{
+    width: 100%;
+    height: 100%;
+}
+.wishdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.wishbook{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 167px;
+    margin-bottom: 0px;
+/* height: 24px; */
+font: normal normal normal 18px/24px Roboto;
+letter-spacing: 0px;
+}
+.wishauthor{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 0px;
+    width: 86px;
+/* height: 16px; */
+
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #9D9D9D;
+}
+.wishprice{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.wprice{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 0px;
+    width: 51px;
+height: 20px;
+font: normal normal bold 15px/20px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+}
+.disprice{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 0px;
+    width: 44px;
+height: 16px;
+text-decoration: line-through;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #9D9D9D;
+}
+.removewish{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+    width: 65px;
+    height: 25px;
+}
