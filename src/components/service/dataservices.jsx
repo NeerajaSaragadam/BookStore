@@ -21,7 +21,7 @@ let configObjForaddNotes1 = {
   export const GetCartItems = async() => {
     console.log(configObjForaddNotes1)
 
-    let response=await axios.get("https://bookstore.incubation.bridgelabz.com/bookstore_user/get_cart_items",configObjForaddNotes1)
+    let response=await axios.get("https://bookstore.incubation.bridgelabz.com/bookstore_user/get_cart_items")
     return response
   } 
  
@@ -36,7 +36,7 @@ let configObjForaddNotes1 = {
   export const Putcartitem = async(data) => {
     console.log(data);
 
-    let response = await axios.put(`https://bookstore.incubation.bridgelabz.com/bookstore_user/cart_item_quantity/${data.id}`,data,configObjForaddNotes1)
+    let response = await axios.put(`https://bookstore.incubation.bridgelabz.com/bookstore_user/cart_item_quantity/${data.id}`,data)
     return response
   }
 
@@ -49,7 +49,7 @@ let configObjForaddNotes1 = {
 
   export const Deletecartitem = async(data) => {
     console.log(configObjForaddNotes1)
-    let response = await axios.delete("https://bookstore.incubation.bridgelabz.com/bookstore_user/remove_cart_item/"+data,configObjForaddNotes1)
+    let response = await axios.delete("https://bookstore.incubation.bridgelabz.com/bookstore_user/remove_cart_item/"+data)
     return response
   }
 
