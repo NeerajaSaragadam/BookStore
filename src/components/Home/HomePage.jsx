@@ -20,6 +20,7 @@ function HomePage(){
    const [switchcartpage,setswitchcartpage] = React.useState(false)
    const [wishlistpage,setwishlistpage] = React.useState(false)
    const [page, setPage] = React.useState(1);
+   const [search,setsearch] = React.useState("")
 
    const [cartitems,setcartitems] = React.useState([])
 
@@ -73,6 +74,10 @@ function HomePage(){
       //  console.log(value)
         setPage(value)
     }
+    const handlesearchlist = (e) =>{
+        setsearch(e.target.value)
+
+    }
     
 
     React.useEffect(()=>{
@@ -86,7 +91,7 @@ function HomePage(){
              <div className="head-container">
                  <button className="educationimg"></button>
                  <p className="bookstore">Bookstore</p>
-                 <input className="inputfeildss" type="text"/>
+                 <input className="inputfeildss" type="text" value={search} onChange={handlesearchlist}/>
                  <div className="icons">
                      <button className="userprofile"></button>
                      <p className="profile">Profile</p>
@@ -120,7 +125,7 @@ function HomePage(){
             <Cartlist/>:
             wishlistpage ? <WishList/> :
                page == 1 ?
-                booksArray.slice(0,8).map((book) => 
+                booksArray.slice(0,8).filter(book => book.bookName.toLowerCase().includes(search)).map((book) => 
                 <BookList book={book} ListenToBookList={ListenToBookList} ListentoSwitchbook={ListentoSwitchbook}/>)
                 : page == 2 ?
                 booksArray.slice(8,16).map((book) => 
