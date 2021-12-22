@@ -7,6 +7,7 @@ import Footer from "../footer/footer";
 
 
 
+
 function BookList(props){
     // console.log(props)
     const Showbookdata = (data) => {
@@ -19,6 +20,7 @@ function BookList(props){
 
     return(
         <div className="booklist">
+           
             <div className="book" onClick={() => Showbookdata(props.book)}>
                <div className="bookimg">
                    <div className="images">
@@ -38,7 +40,7 @@ function BookList(props){
                    </div>
                </div>
             </div>
-            
+
         </div>
     )
 }

@@ -9,6 +9,9 @@ import { GetCartItems } from "../service/dataservices";
 import Cartlist from "../cartlist/cartlist";
 import Footer from "../footer/footer";
 import WishList from "../WishListPage/Wishlistpage";
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
+
 
 function HomePage(){
    const [booksArray,setbooksArray] = React.useState([])
@@ -16,7 +19,7 @@ function HomePage(){
    const [switchbookcart,setswitchbookcart] = React.useState(false)
    const [switchcartpage,setswitchcartpage] = React.useState(false)
    const [wishlistpage,setwishlistpage] = React.useState(false)
-   
+   const [page, setPage] = React.useState(1);
 
    const [cartitems,setcartitems] = React.useState([])
 
@@ -31,7 +34,7 @@ function HomePage(){
    const getBook = () => {
 
     GetBooks().then((response) =>{
-
+         console.log("books",response)
         setbooksArray(response.data.result);
 
     }).catch((error) => {
@@ -65,6 +68,10 @@ function HomePage(){
     }
     const wishtohome = () => {
         setwishlistpage(false)
+    }
+    const nextpage = (e,value)=>{
+      //  console.log(value)
+        setPage(value)
     }
     
 
@@ -103,19 +110,37 @@ function HomePage(){
                 </select>
             </div>
         </div>
-}
+}        
+
+            
         <div className="BookList">
         {
             switchbookcart ?  <AddCart booklist={booklist} ListenToWishlist={ListenToWishlist}/> :  
             switchcartpage ? 
             <Cartlist/>:
             wishlistpage ? <WishList/> :
-                booksArray.map((book) => 
+               page == 1 ?
+                booksArray.slice(0,8).map((book) => 
                 <BookList book={book} ListenToBookList={ListenToBookList} ListentoSwitchbook={ListentoSwitchbook}/>)
-            
+                : page == 2 ?
+                booksArray.slice(8,16).map((book) => 
+                <BookList book={book} ListenToBookList={ListenToBookList} ListentoSwitchbook={ListentoSwitchbook}/>)
+                : page == 3 ?
+                booksArray.slice(16,24).map((book) => 
+                <BookList book={book} ListenToBookList={ListenToBookList} ListentoSwitchbook={ListentoSwitchbook}/>)
+                :null
+
+
+                             
         }
         
     </div>
+
+    <div className="pagination">
+      <Stack spacing={2}>
+      <Pagination count={5} page={page} onChange={nextpage}/>
+      </Stack>
+      </div>
    
    <div className="forfooter">
    <Footer/>
